@@ -1,5 +1,5 @@
 file = open('Data','r')
-linesfile=file.readlines()[1:1000]
+linesfile=file.readlines()[1:20000]
 resultfile=[]
 for x in linesfile:
     resultfile.append(x.split(',')[0:4])
